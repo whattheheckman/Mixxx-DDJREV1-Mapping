@@ -1,0 +1,5 @@
+
+make master headphone listen switch work
+
+move beat jump from tracking scratch buttons
+
