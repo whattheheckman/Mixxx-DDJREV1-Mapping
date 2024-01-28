@@ -1,3 +1,7 @@
+match all midi messages to actual values (use ddj400.js as reference + rev1 manual)
+
+create slip mode toggle using vinyl mode switch
+
 
 make master headphone listen switch work
 
