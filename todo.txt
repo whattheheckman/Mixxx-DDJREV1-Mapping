@@ -7,3 +7,8 @@ make master headphone listen switch work
 
 move beat jump from tracking scratch buttons
 
+midi messages pdf found at 
+https://WWW.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-rev1/ddj-rev1_midi_message_list_e1.pdf
+
+not https://PRODCMS.pioneerdj as found on thier website
+
