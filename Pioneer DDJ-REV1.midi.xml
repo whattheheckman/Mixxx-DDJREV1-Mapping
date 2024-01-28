@@ -6,9 +6,9 @@
         <description>Midi Mapping for the Pioneer DDJ-REV1</description>
         <forums>https://mixxx.discourse.group/t/pioneer-ddj-rev1-mapping/27062</forums>
     </info>
-    <controller id="DDJ-400">
+    <controller id="DDJ-REV1">
         <scriptfiles>
-            <file functionprefix="PioneerDDJ400" filename="Pioneer-DDJ-400-script.js"/>
+            <file functionprefix="PioneerDDJREV1" filename="Pioneer-DDJ-REV1-script.js"/>
         </scriptfiles>
         <controls>
             <control>
@@ -53,7 +53,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.tempoSliderMSB</key>
+                <key>PioneerDDJREV1.tempoSliderMSB</key>
                 <description>TEMPO (DECK1) - fader - Tempo control MSB</description>
                 <status>0xB0</status>
                 <midino>0x00</midino>
@@ -63,7 +63,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.tempoSliderMSB</key>
+                <key>PioneerDDJREV1.tempoSliderMSB</key>
                 <description>TEMPO (DECK2) - fader - Tempo control MSB</description>
                 <status>0xB1</status>
                 <midino>0x00</midino>
@@ -700,7 +700,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxChannel</key>
+                <key>PioneerDDJREV1.beatFxChannel</key>
                 <description>BEAT FX CH SELECT CH1 - slide - Select FX on DECK 1</description>
                 <status>0x94</status>
                 <midino>0x10</midino>
@@ -730,7 +730,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxChannel</key>
+                <key>PioneerDDJREV1.beatFxChannel</key>
                 <description>BEAT FX CH SELECT CH2 - slide - Select FX on DECK 2</description>
                 <status>0x94</status>
                 <midino>0x11</midino>
@@ -860,7 +860,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxChannel</key>
+                <key>PioneerDDJREV1.beatFxChannel</key>
                 <description>BEAT FX CH SELECT MASTER - slide - Select FX on Master</description>
                 <status>0x94</status>
                 <midino>0x14</midino>
@@ -920,7 +920,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 1 (DECK1) BEAT JUMP MODE - press - Jump 1 Beat backwards</description>
                 <status>0x97</status>
                 <midino>0x20</midino>
@@ -930,7 +930,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 1 (DECK2) BEAT JUMP MODE - press - Jump 1 Beat backwards</description>
                 <status>0x99</status>
                 <midino>0x20</midino>
@@ -940,7 +940,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.tempoSliderLSB</key>
+                <key>PioneerDDJREV1.tempoSliderLSB</key>
                 <description>TEMPO (DECK1) - fader - Tempo control LSB</description>
                 <status>0xB0</status>
                 <midino>0x20</midino>
@@ -950,7 +950,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.tempoSliderLSB</key>
+                <key>PioneerDDJREV1.tempoSliderLSB</key>
                 <description>TEMPO (DECK2) - fader - Tempo control LSB</description>
                 <status>0xB1</status>
                 <midino>0x20</midino>
@@ -981,7 +981,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 2 (DECK1) BEAT JUMP MODE - press - Jump 1 Beat forwards</description>
                 <status>0x97</status>
                 <midino>0x21</midino>
@@ -991,7 +991,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 2 (DECK2) BEAT JUMP MODE - press - Jump 1 Beat forwards</description>
                 <status>0x99</status>
                 <midino>0x21</midino>
@@ -1001,7 +1001,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <description>JOG DIAL SIDE (DECK1) - rotate - Pitch bend</description>
                 <status>0xB0</status>
                 <midino>0x21</midino>
@@ -1011,7 +1011,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <status>0xB1</status>
                 <midino>0x21</midino>
                 <options>
@@ -1020,7 +1020,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 3 (DECK1) BEAT JUMP MODE - press - Jump 2 Beats backwards</description>
                 <status>0x97</status>
                 <midino>0x22</midino>
@@ -1030,7 +1030,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 3 (DECK2) BEAT JUMP MODE - press - Jump 2 Beats backwards</description>
                 <status>0x99</status>
                 <midino>0x22</midino>
@@ -1040,7 +1040,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <description>JOG DIAL PLATTER Vinyl mode On (DECK1) - rotate - Scratch</description>
                 <status>0xB0</status>
                 <midino>0x22</midino>
@@ -1050,7 +1050,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <description>JOG DIAL PLATTER Vinyl mode On (DECK2) - rotate - Scratch</description>
                 <status>0xB1</status>
                 <midino>0x22</midino>
@@ -1060,7 +1060,7 @@
             </control>
             <control>
                 <group>[Channel3]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <status>0xB2</status>
                 <midino>0x22</midino>
                 <options>
@@ -1069,7 +1069,7 @@
             </control>
             <control>
                 <group>[Channel4]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <status>0xB3</status>
                 <midino>0x22</midino>
                 <options>
@@ -1078,7 +1078,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 4 (DECK1) BEAT JUMP MODE - press - Jump 2 Beats forwards</description>
                 <status>0x97</status>
                 <midino>0x23</midino>
@@ -1088,7 +1088,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 4 (DECK2) BEAT JUMP MODE - press - Jump 2 Beats forwards</description>
                 <status>0x99</status>
                 <midino>0x23</midino>
@@ -1098,7 +1098,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <description>JOG DIAL PLATTER Vinyl mode Off (DECK1) - rotate - Pitch bend</description>
                 <status>0xB0</status>
                 <midino>0x23</midino>
@@ -1108,7 +1108,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <description>JOG DIAL PLATTER Vinyl mode Off (DECK2) - rotate - Pitch bend</description>
                 <status>0xB1</status>
                 <midino>0x23</midino>
@@ -1118,7 +1118,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 5 (DECK1) BEAT JUMP MODE - press - Jump 4 Beats backwards</description>
                 <status>0x97</status>
                 <midino>0x24</midino>
@@ -1128,7 +1128,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 5 (DECK2) BEAT JUMP MODE - press - Jump 4 Beats backwards</description>
                 <status>0x99</status>
                 <midino>0x24</midino>
@@ -1178,7 +1178,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 6 (DECK1) BEAT JUMP MODE - press - Jump 4 Beats forwards</description>
                 <status>0x97</status>
                 <midino>0x25</midino>
@@ -1188,7 +1188,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 6 (DECK2) BEAT JUMP MODE - press - Jump 4 Beats forwards</description>
                 <status>0x99</status>
                 <midino>0x25</midino>
@@ -1198,7 +1198,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 7 (DECK1) BEAT JUMP MODE - press - Jump 8 Beats backwards</description>
                 <status>0x97</status>
                 <midino>0x26</midino>
@@ -1208,7 +1208,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.decreaseBeatjumpSizes</key>
+                <key>PioneerDDJREV1.decreaseBeatjumpSizes</key>
                 <description>PAD 7 (DECK1) +SHift BEAT JUMP MODE - press - decrease Beatjump by a factor of 16</description>
                 <status>0x98</status>
                 <midino>0x26</midino>
@@ -1218,7 +1218,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 7 (DECK2) BEAT JUMP MODE - press - Jump 8 Beats backwards</description>
                 <status>0x99</status>
                 <midino>0x26</midino>
@@ -1228,7 +1228,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.decreaseBeatjumpSizes</key>
+                <key>PioneerDDJREV1.decreaseBeatjumpSizes</key>
                 <description>PAD 7 (DECK2) +Shift BEAT JUMP MODE - press - decrease Beatjump by a factor of 16</description>
                 <status>0x9A</status>
                 <midino>0x26</midino>
@@ -1238,7 +1238,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 8 (DECK1) BEAT JUMP MODE - press - Jump 8 Beats forwards</description>
                 <status>0x97</status>
                 <midino>0x27</midino>
@@ -1248,7 +1248,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.increaseBeatjumpSizes</key>
+                <key>PioneerDDJREV1.increaseBeatjumpSizes</key>
                 <description>PAD 8 (DECK1) +SHift BEAT JUMP MODE - press - increase Beatjump by a factor of 16</description>
                 <status>0x98</status>
                 <midino>0x27</midino>
@@ -1258,7 +1258,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.beatjumpPadPressed</key>
+                <key>PioneerDDJREV1.beatjumpPadPressed</key>
                 <description>PAD 8 (DECK2) BEAT JUMP MODE - press - Jump 8 Beats forwards</description>
                 <status>0x99</status>
                 <midino>0x27</midino>
@@ -1268,7 +1268,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.increaseBeatjumpSizes</key>
+                <key>PioneerDDJREV1.increaseBeatjumpSizes</key>
                 <description>PAD 8 (DECK2) +Shift BEAT JUMP MODE - press - increase Beatjump by a factor of 16</description>
                 <status>0x9A</status>
                 <midino>0x27</midino>
@@ -1328,7 +1328,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.jogSearch</key>
+                <key>PioneerDDJREV1.jogSearch</key>
                 <description>JOG DIAL PLATTER +SHIFT (DECK1) - rotate - Search (Fast Pitch bend)</description>
                 <status>0xB0</status>
                 <midino>0x29</midino>
@@ -1338,7 +1338,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.jogSearch</key>
+                <key>PioneerDDJREV1.jogSearch</key>
                 <description>JOG DIAL PLATTER +SHIFT (DECK2) - rotate - Search (Fast Pitch bend)</description>
                 <status>0xB1</status>
                 <midino>0x29</midino>
@@ -1448,7 +1448,7 @@
             </control>
             <control>
                 <group>[Sampler1]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 1 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x30</midino>
@@ -1458,7 +1458,7 @@
             </control>
             <control>
                 <group>[Sampler1]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 1 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x30</midino>
@@ -1468,7 +1468,7 @@
             </control>
             <control>
                 <group>[Sampler9]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 1 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x30</midino>
@@ -1478,7 +1478,7 @@
             </control>
             <control>
                 <group>[Sampler9]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 1 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x30</midino>
@@ -1488,7 +1488,7 @@
             </control>
             <control>
                 <group>[Sampler2]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 2 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x31</midino>
@@ -1498,7 +1498,7 @@
             </control>
             <control>
                 <group>[Sampler2]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 2 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x31</midino>
@@ -1508,7 +1508,7 @@
             </control>
             <control>
                 <group>[Sampler10]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 2 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x31</midino>
@@ -1518,7 +1518,7 @@
             </control>
             <control>
                 <group>[Sampler10]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 2 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x31</midino>
@@ -1528,7 +1528,7 @@
             </control>
             <control>
                 <group>[Sampler3]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 3 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x32</midino>
@@ -1538,7 +1538,7 @@
             </control>
             <control>
                 <group>[Sampler3]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 3 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x32</midino>
@@ -1548,7 +1548,7 @@
             </control>
             <control>
                 <group>[Sampler11]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 3 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x32</midino>
@@ -1558,7 +1558,7 @@
             </control>
             <control>
                 <group>[Sampler11]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 3 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x32</midino>
@@ -1568,7 +1568,7 @@
             </control>
             <control>
                 <group>[Sampler4]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 4 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x33</midino>
@@ -1578,7 +1578,7 @@
             </control>
             <control>
                 <group>[Sampler4]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 4 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x33</midino>
@@ -1588,7 +1588,7 @@
             </control>
             <control>
                 <group>[Sampler12]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 4 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x33</midino>
@@ -1598,7 +1598,7 @@
             </control>
             <control>
                 <group>[Sampler12]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 4 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x33</midino>
@@ -1648,7 +1648,7 @@
             </control>
             <control>
                 <group>[Sampler5]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 5 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x34</midino>
@@ -1658,7 +1658,7 @@
             </control>
             <control>
                 <group>[Sampler5]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 5 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x34</midino>
@@ -1668,7 +1668,7 @@
             </control>
             <control>
                 <group>[Sampler13]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 5 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x34</midino>
@@ -1678,7 +1678,7 @@
             </control>
             <control>
                 <group>[Sampler13]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 5 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x34</midino>
@@ -1688,7 +1688,7 @@
             </control>
             <control>
                 <group>[Sampler6]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 6 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x35</midino>
@@ -1698,7 +1698,7 @@
             </control>
             <control>
                 <group>[Sampler6]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 6 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x35</midino>
@@ -1708,7 +1708,7 @@
             </control>
             <control>
                 <group>[Sampler14]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 6 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x35</midino>
@@ -1718,7 +1718,7 @@
             </control>
             <control>
                 <group>[Sampler14]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 6 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x35</midino>
@@ -1728,7 +1728,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.jogTouch</key>
+                <key>PioneerDDJREV1.jogTouch</key>
                 <description>JOG DIAL PLATTER (DECK1) - touch - enable (on touch) / disable (on release) Scratching/Pitch&#xd;
                     bend&#xd;
                 </description>
@@ -1740,7 +1740,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.jogTouch</key>
+                <key>PioneerDDJREV1.jogTouch</key>
                 <description>JOG DIAL PLATTER (DECK2) - touch - enable (on touch) / disable (on release) Scratching/Pitch&#xd;
                     bend&#xd;
                 </description>
@@ -1752,7 +1752,7 @@
             </control>
             <control>
                 <group>[Channel3]</group>
-                <key>PioneerDDJ400.jogTouch</key>
+                <key>PioneerDDJREV1.jogTouch</key>
                 <status>0x92</status>
                 <midino>0x36</midino>
                 <options>
@@ -1761,7 +1761,7 @@
             </control>
             <control>
                 <group>[Channel4]</group>
-                <key>PioneerDDJ400.jogTouch</key>
+                <key>PioneerDDJREV1.jogTouch</key>
                 <status>0x93</status>
                 <midino>0x36</midino>
                 <options>
@@ -1770,7 +1770,7 @@
             </control>
             <control>
                 <group>[Sampler7]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 7 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x36</midino>
@@ -1780,7 +1780,7 @@
             </control>
             <control>
                 <group>[Sampler7]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 7 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x36</midino>
@@ -1790,7 +1790,7 @@
             </control>
             <control>
                 <group>[Sampler15]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 7 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x36</midino>
@@ -1800,7 +1800,7 @@
             </control>
             <control>
                 <group>[Sampler15]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 7 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x36</midino>
@@ -1810,7 +1810,7 @@
             </control>
             <control>
                 <group>[Sampler8]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 8 (LEFT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x97</status>
                 <midino>0x37</midino>
@@ -1820,7 +1820,7 @@
             </control>
             <control>
                 <group>[Sampler8]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 8 (LEFT)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x98</status>
                 <midino>0x37</midino>
@@ -1830,7 +1830,7 @@
             </control>
             <control>
                 <group>[Sampler16]</group>
-                <key>PioneerDDJ400.samplerPadPressed</key>
+                <key>PioneerDDJREV1.samplerPadPressed</key>
                 <description>PAD 8 (RIGHT) SAMPLE MODE - press - Play Sample or Load Track</description>
                 <status>0x99</status>
                 <midino>0x37</midino>
@@ -1840,7 +1840,7 @@
             </control>
             <control>
                 <group>[Sampler16]</group>
-                <key>PioneerDDJ400.samplerPadShiftPressed</key>
+                <key>PioneerDDJREV1.samplerPadShiftPressed</key>
                 <description>PAD 8 (Right)+SHIFT SAMPLE MODE - press - Stop Playback or Eject Track</description>
                 <status>0x9A</status>
                 <midino>0x37</midino>
@@ -1890,7 +1890,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.quickJumpForward</key>
+                <key>PioneerDDJREV1.quickJumpForward</key>
                 <description>CUE/LOOP CALL RIGHT + SHIFT (DECK1) - press - quick jump forwards</description>
                 <status>0x90</status>
                 <midino>0x3D</midino>
@@ -1900,7 +1900,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.quickJumpForward</key>
+                <key>PioneerDDJREV1.quickJumpForward</key>
                 <description>CUE/LOOP CALL RIGHT + SHIFT (DECK2) - press - quick jump forwards</description>
                 <status>0x91</status>
                 <midino>0x3D</midino>
@@ -1910,7 +1910,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.quickJumpBack</key>
+                <key>PioneerDDJREV1.quickJumpBack</key>
                 <description>CUE/LOOP CALL LEFT + SHIFT (DECK1) - press - quick jump back</description>
                 <status>0x90</status>
                 <midino>0x3E</midino>
@@ -1920,7 +1920,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.quickJumpBack</key>
+                <key>PioneerDDJREV1.quickJumpBack</key>
                 <description>CUE/LOOP CALL LEFT + SHIFT (DECK2) - press - quick jump back</description>
                 <status>0x91</status>
                 <midino>0x3E</midino>
@@ -1930,7 +1930,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.shiftPressed</key>
+                <key>PioneerDDJREV1.shiftPressed</key>
                 <description>Shift (DECK1)</description>
                 <status>0x90</status>
                 <midino>0x3F</midino>
@@ -1940,7 +1940,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.shiftPressed</key>
+                <key>PioneerDDJREV1.shiftPressed</key>
                 <description>Shift (DECK2)</description>
                 <status>0x91</status>
                 <midino>0x3F</midino>
@@ -1990,7 +1990,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxOnOffShiftPressed</key>
+                <key>PioneerDDJREV1.beatFxOnOffShiftPressed</key>
                 <description>BEAT FX ON/OFF +SHIFT - press - Disable all enabled Beat FX Slots</description>
                 <status>0x94</status>
                 <midino>0x43</midino>
@@ -2070,7 +2070,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxOnOffPressed</key>
+                <key>PioneerDDJREV1.beatFxOnOffPressed</key>
                 <description>BEAT FX ON/OFF - press - Toggle FX in the selected Slot</description>
                 <status>0x94</status>
                 <midino>0x47</midino>
@@ -2170,7 +2170,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxLeftPressed</key>
+                <key>PioneerDDJREV1.beatFxLeftPressed</key>
                 <description>BEAT LEFT - press - toggle focused Effect leftward</description>
                 <status>0x94</status>
                 <midino>0x4A</midino>
@@ -2180,7 +2180,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxRightPressed</key>
+                <key>PioneerDDJREV1.beatFxRightPressed</key>
                 <description>BEAT RIGHT - press - toggle focused Effect rightward</description>
                 <status>0x94</status>
                 <midino>0x4B</midino>
@@ -2190,7 +2190,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.toggleLoopAdjustIn</key>
+                <key>PioneerDDJREV1.toggleLoopAdjustIn</key>
                 <description>SHIFT + LOOP IN (DECK1) - Loop in adjust (using jog wheel)</description>
                 <status>0x90</status>
                 <midino>0x4C</midino>
@@ -2200,7 +2200,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.toggleLoopAdjustIn</key>
+                <key>PioneerDDJREV1.toggleLoopAdjustIn</key>
                 <description>SHIFT + LOOP IN (DECK2) - Loop in adjust (using jog wheel)</description>
                 <status>0x91</status>
                 <midino>0x4C</midino>
@@ -2230,7 +2230,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.toggleLoopAdjustOut</key>
+                <key>PioneerDDJREV1.toggleLoopAdjustOut</key>
                 <description>SHIFT + LOOP OUT (DECK1) - Loop out adjust (using jog wheel)</description>
                 <status>0x90</status>
                 <midino>0x4E</midino>
@@ -2240,7 +2240,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.toggleLoopAdjustOut</key>
+                <key>PioneerDDJREV1.toggleLoopAdjustOut</key>
                 <description>SHIFT + LOOP OUT (DECK2) - Loop out adjust (using jog wheel)</description>
                 <status>0x91</status>
                 <midino>0x4E</midino>
@@ -2290,7 +2290,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.cueLoopCallLeft</key>
+                <key>PioneerDDJREV1.cueLoopCallLeft</key>
                 <description>CUE/LOOP CALL LEFT (DECK1) - press - half active loop</description>
                 <status>0x90</status>
                 <midino>0x51</midino>
@@ -2300,7 +2300,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.cueLoopCallLeft</key>
+                <key>PioneerDDJREV1.cueLoopCallLeft</key>
                 <description>CUE/LOOP CALL LEFT (DECK2) - press - half active loop</description>
                 <status>0x91</status>
                 <midino>0x51</midino>
@@ -2310,7 +2310,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.cueLoopCallRight</key>
+                <key>PioneerDDJREV1.cueLoopCallRight</key>
                 <description>CUE/LOOP CALL LEFT (DECK1) - press - double active loop</description>
                 <status>0x90</status>
                 <midino>0x53</midino>
@@ -2320,7 +2320,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.cueLoopCallRight</key>
+                <key>PioneerDDJREV1.cueLoopCallRight</key>
                 <description>CUE/LOOP CALL LEFT (DECK2) - press - double active loop</description>
                 <status>0x91</status>
                 <midino>0x53</midino>
@@ -2390,7 +2390,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.syncLongPressed</key>
+                <key>PioneerDDJREV1.syncLongPressed</key>
                 <description>BEAT SYNC LONG PRESS (DECK1) - press - Set as Master deck</description>
                 <status>0x90</status>
                 <midino>0x5C</midino>
@@ -2400,7 +2400,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.syncLongPressed</key>
+                <key>PioneerDDJREV1.syncLongPressed</key>
                 <description>BEAT SYNC LONG PRESS (DECK2) - press - Set as Master deck</description>
                 <status>0x91</status>
                 <midino>0x5C</midino>
@@ -2410,7 +2410,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.cycleTempoRange</key>
+                <key>PioneerDDJREV1.cycleTempoRange</key>
                 <description>BEAT SYNC +SHIFT (DECK1) - press - change Tempo range</description>
                 <status>0x90</status>
                 <midino>0x60</midino>
@@ -2420,7 +2420,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.cycleTempoRange</key>
+                <key>PioneerDDJREV1.cycleTempoRange</key>
                 <description>BEAT SYNC +SHIFT (DECK2) - press - change Tempo range</description>
                 <status>0x91</status>
                 <midino>0x60</midino>
@@ -2490,7 +2490,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxSelectPressed</key>
+                <key>PioneerDDJREV1.beatFxSelectPressed</key>
                 <description>BEAT FX SELECT - press - load next effect entry for focused Effect</description>
                 <status>0x94</status>
                 <midino>0x63</midino>
@@ -2530,7 +2530,7 @@
             </control>
             <control>
                 <group>[EffectRack1_EffectUnit1]</group>
-                <key>PioneerDDJ400.beatFxSelectShiftPressed</key>
+                <key>PioneerDDJREV1.beatFxSelectShiftPressed</key>
                 <description>BEAT FX SELECT +SHIFT - press - load previous effect entry for focused Effect</description>
                 <status>0x94</status>
                 <midino>0x64</midino>
@@ -2600,7 +2600,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.jogTouch</key>
+                <key>PioneerDDJREV1.jogTouch</key>
                 <description>JOG DIAL PLATTER +SHIFT (DECK1) - touch - enable (on touch) / disable (on release) highspeed&#xd;
                     Pitch bend&#xd;
                 </description>
@@ -2612,7 +2612,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.jogTouch</key>
+                <key>PioneerDDJREV1.jogTouch</key>
                 <description>JOG DIAL PLATTER +SHIFT (DECK2) - touch - enable (on touch) / disable (on release) highspeed&#xd;
                     Pitch bend&#xd;
                 </description>
@@ -2644,7 +2644,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>PioneerDDJ400.toggleQuantize</key>
+                <key>PioneerDDJREV1.toggleQuantize</key>
                 <description>Shift + Left CUE - Toggle quantize on/off (Deck1)</description>
                 <status>0x90</status>
                 <midino>0x68</midino>
@@ -2664,7 +2664,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>PioneerDDJ400.toggleQuantize</key>
+                <key>PioneerDDJREV1.toggleQuantize</key>
                 <description>Shift + Right CUE - Toggle quantize on/off (Deck2)</description>
                 <status>0x91</status>
                 <midino>0x68</midino>
@@ -2744,7 +2744,7 @@
             </control>
             <control>
                 <group>[Channel3]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <status>0x02</status>
                 <options>
                     <script-binding/>
@@ -2752,7 +2752,7 @@
             </control>
             <control>
                 <group>[Channel4]</group>
-                <key>PioneerDDJ400.jogTurn</key>
+                <key>PioneerDDJREV1.jogTurn</key>
                 <status>0x03</status>
                 <options>
                     <script-binding/>
