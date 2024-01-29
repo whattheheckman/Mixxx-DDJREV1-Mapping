@@ -1728,6 +1728,15 @@
             </control>
             <control>
                 <group>[Channel1]</group>
+                <key>PioneerDDJREV1.toggleVinylMode</key>
+                <status>0x90</status>
+                <midino>0x17</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
                 <key>PioneerDDJREV1.jogTouch</key>
                 <description>JOG DIAL PLATTER (DECK1) - touch - enable (on touch) / disable (on release) Scratching/Pitch&#xd;
                     bend&#xd;

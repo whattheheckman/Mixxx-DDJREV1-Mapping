@@ -99,10 +99,19 @@ PioneerDDJREV1.lights = {
     },
 };
 
+//Midi hex for each channel
+PioneerDDJREV1.channels = {
+    1: 0x90,
+    2: 0x91,
+    3: 0x92,
+    4: 0x93
+};
+
 // Store timer IDs
 PioneerDDJREV1.timers = {};
 
 // Jog wheel constants
+PioneerDDJREV1.vinylMode = [true, true, true, true];
 PioneerDDJREV1.alpha = 1.0 / 8;
 PioneerDDJREV1.beta = PioneerDDJREV1.alpha / 32;
 
@@ -156,7 +165,7 @@ PioneerDDJREV1.toggleLight = function (midiIn, active) {
 //
 
 PioneerDDJREV1.init = function () {
-    PioneerDDJREV1.vinylMode = true;
+
     engine.setValue("[EffectRack1_EffectUnit1]", "show_focus", 1);
 
     engine.makeUnbufferedConnection("[Channel1]", "VuMeter", PioneerDDJREV1.vuMeterUpdate);
@@ -164,7 +173,7 @@ PioneerDDJREV1.init = function () {
 
     PioneerDDJREV1.toggleLight(PioneerDDJREV1.lights.deck1.vuMeter, false);
     PioneerDDJREV1.toggleLight(PioneerDDJREV1.lights.deck2.vuMeter, false);
-    
+
 
     engine.softTakeover("[Channel1]", "rate", true);
     engine.softTakeover("[Channel2]", "rate", true);
@@ -457,6 +466,19 @@ PioneerDDJREV1.cycleTempoRange = function (_channel, _control, value, _status, g
 //
 // Jog wheels
 //
+
+PioneerDDJREV1.toggleVinylMode = function (channel, _control, value, _status, group) {
+    if (value === 0) { return; } // ignore release
+
+    PioneerDDJREV1.vinylMode[channel] = !PioneerDDJREV1.vinylMode[channel];
+
+    if (PioneerDDJREV1.vinylMode[channel]) {
+        midi.sendShortMsg(PioneerDDJREV1.channels[channel], 0x17, 0xff);
+    } else {
+        midi.sendShortMsg(PioneerDDJREV1.channels[channel], 0x17, 0x00);
+    }
+}
+
 
 PioneerDDJREV1.jogTurn = function (channel, _control, value, _status, group) {
     const deckNum = channel + 1;
