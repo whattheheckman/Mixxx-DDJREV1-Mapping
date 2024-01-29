@@ -891,7 +891,7 @@
             <control>
                 <group>[QuickEffectRack1_[Channel3]]</group>
                 <key>super1</key>
-                <description>MIDI Learned from 246 messages.</description>
+                <description>FILTER CH3 - rotate - Filter Effect Knob</description>
                 <status>0xB6</status>
                 <midino>0x19</midino>
                 <options>
@@ -901,7 +901,7 @@
             <control>
                 <group>[QuickEffectRack1_[Channel4]]</group>
                 <key>super1</key>
-                <description>MIDI Learned from 48 messages.</description>
+                <description>FILTER CH4 - rotate - Filter Effect Knob</description>
                 <status>0xB6</status>
                 <midino>0x1A</midino>
                 <options>
@@ -1061,6 +1061,7 @@
             <control>
                 <group>[Channel3]</group>
                 <key>PioneerDDJREV1.jogTurn</key>
+                <description>JOG DIAL PLATTER Vinyl mode On (DECK3) - rotate - Scratch</description>
                 <status>0xB2</status>
                 <midino>0x22</midino>
                 <options>
@@ -1070,6 +1071,7 @@
             <control>
                 <group>[Channel4]</group>
                 <key>PioneerDDJREV1.jogTurn</key>
+                <description>JOG DIAL PLATTER Vinyl mode On (DECK4) - rotate - Scratch</description>
                 <status>0xB3</status>
                 <midino>0x22</midino>
                 <options>
