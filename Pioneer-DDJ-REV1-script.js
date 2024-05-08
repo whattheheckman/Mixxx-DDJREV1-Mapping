@@ -99,13 +99,13 @@ PioneerDDJREV1.lights = {
     },
 };
 
+//Midi hex for each channel
 PioneerDDJREV1.channels = {
-    0x90: 1,
-    0x91: 2,
-    0x92: 3,
-    0x93: 4
+    1: 0x90,
+    2: 0x91,
+    3: 0x92,
+    4: 0x93
 };
-
 
 // Store timer IDs
 PioneerDDJREV1.timers = {};
@@ -469,12 +469,13 @@ PioneerDDJREV1.cycleTempoRange = function (_channel, _control, value, _status, g
 
 PioneerDDJREV1.toggleVinylMode = function (channel, _control, value, _status, group) {
     if (value === 0) { return; } // ignore release
-    PioneerDDJREV1.vinylMode[group.match(script.channelRegEx)[1] - 1] = !PioneerDDJREV1.vinylMode[group.match(script.channelRegEx)[1] - 1];
+
+    PioneerDDJREV1.vinylMode[channel] = !PioneerDDJREV1.vinylMode[channel];
 
     if (PioneerDDJREV1.vinylMode[channel]) {
-        midi.sendShortMsg(channel, 0x17, 0x7f);
+        midi.sendShortMsg(PioneerDDJREV1.channels[channel], 0x17, 0xff);
     } else {
-        midi.sendShortMsg(channel, 0x17, 0);
+        midi.sendShortMsg(PioneerDDJREV1.channels[channel], 0x17, 0x00);
     }
 }
 

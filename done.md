@@ -1,1 +1,0 @@
-1 channel vinyl mode switching (logic for actual scratching is broken)
